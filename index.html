@@ -1,0 +1,125 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Invoice</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+
+        <div class="main">
+        <!-- Head -->
+        <div class="head" style="background-color: #3e73b9" >
+        </div>
+        <!-- END Head -->
+        <!-- Info -->
+        <div class="info">
+            <h1>
+                Jhon Smith
+            </h1>
+            <p>4490 Oak Drive</p>
+            <p> ALbany , NY 12210</p>
+        </div>
+       
+        <!-- End Info -->
+
+        <table style="width:100%" class="table-1">
+            <tr class="title">
+              <th>Bill to</th>
+              <th>ship to</th>
+              <th>invoice #</th>
+              <th class="normal right">int-001</th>
+            </tr>
+            <tr>
+              <td>jessie m home</td>
+              <td>jessie m home</td>
+              <td class="bold">INVOICE DATE</td>
+              <td class="right">11/02/2019</td>
+            </tr>
+            <tr>
+              <td>4321 wOOD rOAD</td>
+              <td>2019 REDBUD DRIVE</td>
+              <td class="bold">p.o.#</td>
+              <td class="right">24/12/2019</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td class="bold">due date</td>
+                <td class="right">26/02/2019</td>
+              </tr>
+          </table>
+
+          <div class="result-description">
+            <h1>INVOICE Total</h1>
+            <h2>204.75$</h2>
+          </div>
+        <!-- Start Description -->
+        <table style="width:100%" class="table-2">
+            <tr class="title bold">
+              <th class="bold"> QTY </th>
+              <th>Description</th>
+              <th class="right">UNIT PRICE</th>
+              <th class="right">AMOUNT</th>
+            </tr>
+            <tr>
+              <td class="bold">1</td>
+              <td>Front and rear brake cables</td>
+              <td class="right">100.00</td>
+              <td class="right">100.00</td>
+            </tr>
+            <tr>
+              <td class="bold">2</td>
+              <td>New set of pedal arms</td>
+              <td class="right">25.00</td>
+              <td class="right">50.00</td>
+            </tr>
+            <tr>
+                <td class="bold">3</td>
+                <td>labor 3hrs</td>
+                <td class="right">15</td>
+                <td class="right">45.00</td>
+              </tr>
+          </table>
+
+          <!-- Sub Total -->
+          <table style="width:100%" class="table-total">
+            <tr class="title bold">
+              <th></th>
+              <th></th>
+              <th class="right normal">subtotal</th>
+              <th class="right">195.00</th>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td class="right">sales tax 5.0%</td>
+              <td class="right">9.75</td>
+            </tr>
+          </table>
+
+         <!-- Mange -->
+         <span class="name">
+            Jhon Smith
+         </span>
+         <button onclick="event.preventDefault();window.print();">
+                <span>Print</span>
+        </button>
+           <!-- footer -->
+         <div class="footer">
+            <h2>Terms & CONDITIONS</h2>
+            
+            <p> payment is due within 15 days </p>
+            <span>name bank</span>
+            <span>account number: 1234567890</span>
+            <span>routing: 098765432</span>
+            
+        </div>
+        <div class="footer-color">
+
+        </div>
+        <!-- END footer -->
+
+        </div>
+	</body>
+	</html>

@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+.bold {
+    font-weight: bold;
+}
+.normal {
+    font-weight: normal;
+}
+.right {
+    text-align: right;
+}
+.main {
+    margin: 30px 20px;
+    padding: 0 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.head,
+.footer-color {
+    background-color: #3e73b9;
+    height: 40px;
+}
+.info {
+    margin: 20px 0 30px;
+    text-align: left;
+    color: #000;
+}
+.info h1 {
+    font-size: 22px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.info p:first-child {
+    margin-top: 30px;
+}
+.info p {
+    color: #000;
+    font-size: 18px;
+    margin: 0;
+}
+
+/* Table */
+tr.title {
+    text-align: left;
+    font-size: 20px;
+    text-transform: capitalize;
+    height: 40px;
+}
+td {
+    font-size: 18px;
+    color: #000;
+    text-transform: capitalize;
+}
+.result-description {
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+}
+.result-description h1,
+.result-description h2 {
+    display: inline-block;
+}
+.result-description h2 {
+    float: right;
+}
+/* Rable-2 */
+.table-2 td {
+    height: 40px;
+}
+.table-total td {
+    width: 27%;
+}
+.name {
+    font-family: 'Pacifico', cursive;
+    float: right;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 40px 20px;
+}
+
+.footer {
+    text-align: left;
+    margin: 60px 0 20px;
+}
+.footer h2 {
+    font-size: 19px;
+    color: #000;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.footer p {
+    margin-bottom: 15px;
+}
+.footer span {
+    color: #000;
+    font-size: 18px;
+    margin: 3px;
+    display: block;
+    text-transform: capitalize;
+}
+
+button {
+    display: block;
+    font-size: 16px;
+    padding: 5px 15px;
+    background-color: #3e73b9;
+    color: #fff;
+    cursor: pointer;
+}
+
